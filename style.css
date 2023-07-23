@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+i {
+  font-size: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+header {
+  background-color: burlywood;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header img {
+  width: 4vw;
+  margin-left: 2vw;
+  margin-top: 0.5vw;
+  display: inline-block;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0vw 1vw;
+  font-size: 1.7vw;
+  padding-bottom: 0.5vw;
+  color: rgb(6, 6, 117);
+}
+.title {
+  font-size: 4vw;
+  color: rgb(6, 6, 117);
+  margin-left: 29vw;
+  margin-right: 29vw;
+}
+footer {
+  border: 2px solid burlywood;
+}
+
+.smid {
+  display: inline-block;
+  margin: 30 px;
+  background-color: burlywood;
+  color: rgb(6, 6, 117);
+  font-size: 20px;
+}
+
+.logos div {
+  display: inline-block;
+  padding: 0 15px;
+}
+#up {
+  float: right;
+  position: sticky;
+}
+
+.logoname {
+  display: inline-block;
+  margin: 0 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(6, 6, 117);
+}
+
+.terms {
+  padding: 8px;
+  background-color: burlywood;
+  color: rgb(6, 6, 117);
+  text-align: center;
+  font-size: 17px;
+}
+
+.terms a {
+  text-decoration: none;
+  color: rgb(6, 6, 117);
+  font-size: 17px;
+}
+.footer {
+  height: 10vw;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.card1 {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px;
+  grid-template-areas: "imageone" "textone";
+  font-family: roboto;
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  position: relative;
+  margin-right: 50px;
+}
+.card1:hover {
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.image1 {
+  grid-area: imageone;
+  background: url("eco.png");
+  width: 200px;
+  margin-left: 45px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.image2 {
+  grid-area: imageone;
+  background: url("icoj.png");
+  width: 200px;
+  height: 200px;
+  margin-top: 8px;
+  margin-left: 46px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.image3 {
+  grid-area: imageone;
+  background: url("ecosoc.webp");
+  width: 220px;
+  margin-left: 43px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.image4 {
+  grid-area: imageone;
+  background: url("unhrc.png");
+  width: 210px;
+  margin-left: 40px;
+  margin-top: 4px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.t1 {
+  font-size: 3vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: burlywood;
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(6, 6, 117);
+  opacity: 0.8;
+  visibility: hidden;
+  border-radius: 18px;
+}
+.card1:hover .t1 {
+  visibility: visible;
+}
+.text1 {
+  grid-area: textone;
+  margin: 25px;
+}
+h2 {
+  color: rgb(6, 6, 117);
+}
+p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.com {
+  color: rgb(6, 6, 117);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
